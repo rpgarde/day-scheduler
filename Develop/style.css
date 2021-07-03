@@ -1,59 +1,68 @@
+/* https://coolors.co/0b132b-1c2541-3a506b-5bc0be-6fffe9 */
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color:#0b132b;
+}
+
+.custom-h1 {
+  font-weight:700;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: #1c2541;
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid #6fffe9;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
+  /* background-color:#1c2541; */
   border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  color: white;
 }
 
 .description {
   white-space: pre-wrap;
   border:none;
-  border-left: 1px dashed black;
+  border-left: 1px dashed white;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #3a506b;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #ff773d;
+  color: #0b132b;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #5bc0be;
+  color: #0b132b;
 }
 
 .saveBtn {
   border:none;
-  border-left: 1px dashed black;
+  border-left: 1px dashed white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #1c2541;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
+  background-color:#5bc0be;
+  box-shadow: 4px 4px 10px 3px #000000;
   transition: all 0.3s ease-in-out;
 }
