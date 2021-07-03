@@ -27,7 +27,9 @@ for (i=9;i<18;i++){
     let inputText = $('<input>')
     inputText.attr({'type':'text'})
     inputText.addClass('description col-8 col-md-10')
-    inputText.val(pulledPlans[i-9])
+    if(pulledPlans!==null){
+        inputText.val(pulledPlans[i-9])
+    }
     if(currentHour == i){
         inputText.addClass('present')
     }
