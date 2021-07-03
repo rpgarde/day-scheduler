@@ -1,4 +1,4 @@
-Hi 👋 this is a day scheduler web site
+# Hi! 👋 This is a day scheduler web site
 
 ## Features
 * A typical 9am to 6pm workday is displayed when you load the page 
