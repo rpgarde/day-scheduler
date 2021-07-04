@@ -25,7 +25,7 @@ for (i=9;i<18;i++){
     rowEl.append(hourEl)
     //build input and style based on time now
     let inputText = $('<input>')
-    inputText.attr({'type':'text'})
+    inputText.attr({'type':'text', 'placeholder':'Type your task here and hit 💾 to save'})
     inputText.addClass('description col-8 col-md-10')
     if(pulledPlans!==null){
         inputText.val(pulledPlans[i-9])
