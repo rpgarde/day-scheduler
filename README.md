@@ -15,3 +15,10 @@
 
 ## Link
 Here's a link to the [deployed page](http://rpgarde.github.io/day-scheduler/)
+
+## Screenshots
+App interface
+![Screenshot](./images/main.png)
+
+What it looks like when you've filled in a row
+![Screenshot](./images/filled.png)
